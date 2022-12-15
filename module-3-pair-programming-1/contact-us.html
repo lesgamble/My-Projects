@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TE Popsicles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <div id="head-grid">
+            <img id="te-pops" src="images/te-pops.png" alt="TE Pops Logo">
+            <h1 id="headline">Tech Elevator Popsicles</h1>
+        </div>   
+          <div id="buttons">
+            <button class="buttons1"> home <button class="buttons1"> store <button class="buttons1"> Contact Us
+          </div>
+    </header>
+    <br>
+        <form method="POST" id="form">
+            <h1 id="headline">Contact Us</h1>
+            <div>
+                <label for="Name">Name:</label>
+                <br>
+                <input id="Name" name="Name" type="text" />
+            </div>
+            <br>
+            <div>
+                <label for="PopsicleMonthly">How did you hear of us?</label>
+                <br>
+                <div class="custom-select" >
+                    <select>
+                      <option value="0">Popsicle Monthly</option>
+                      <option value="1">Google</option>
+                      <option value="2">Facebook</option>
+                      <option value="3">Instagram</option>
+                      <option value="4">Other</option>
+                    </select>
+                  </div>
+            </div>
+            <br>
+            <div>
+                <label for="color">What color is your favorite popsicle?</label>
+                <br>
+                <input id="color" name="color" type="color" class="block" value="#00afef">
+            </div>
+            <br>
+            <div>
+                <label for="comments">Please let us know any comments you have:</label>
+                <br>
+                <textarea id="comments" name="comments" rows="6"  class="resizedTextbox">Enter text here...</textarea>
+            </div>
+            <br>
+            <div>
+                <button class="submit" input type="submit"> Submit
+            </div>
+        </form>
+    <br>
+        <footer>
+            <p>© Tech Elevator 2020</p>
+        </footer>
+
+</body>
